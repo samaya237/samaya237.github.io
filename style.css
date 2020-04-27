@@ -1,0 +1,17 @@
+
+
+html,body{
+    background-image: url('Rune.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h4{
+    color: lavender;
+}
+
+label{
+    color:white;
+}
