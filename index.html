@@ -17,7 +17,7 @@
 
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Shadowhunters</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,12 +28,10 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About us</a>
+                  <a class="nav-link" href="about.html">Gallery</a>
                 </li>
                
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -41,26 +39,26 @@
               </form>
             </div>
           </nav>
-
+            <h3 id="newDate"></h3>
           <div class="container">
               <div class="row">
                 <div class="col-lg-3"> 
 
                 </div>
                 <div class="col-lg-6">
-                    <input type="text" value="Rory Landon" id="box">
-            <h4 style="color: purple;" onmouseover="style.color='green'" onmouseout="style.color='blue'">How many books are there in the mortal instruments series ?</h4>
-            <input type="radio" name="answer1" value="0"> 
+                   <label > Your name</label> <input type="text" value="Rory Landon" id="box">
+            <h4 id="ques1" >How many books are there in the mortal instruments series ?</h4>
+            <input type="radio" name="answer1" value="0" required> 
             <label > 3 </label>
             <br>
-            <input type="radio" name="answer1" value="1">
+            <input type="radio" name="answer1" value="1" required>
             <label > 6 </label>
             <br>
-            <input type="radio" name="answer1" value="0">
+            <input type="radio" name="answer1" value="0" required>
             <label > 5 </label>
             <br>
             <br>
-            <h4>What is the name of Clary's sword? </h4>
+            <h4 id="ques2">What is the name of Clary's sword? </h4>
             <input type="radio" name="answer2" value="0">
             <label > Cortana </label>
             <br>
@@ -70,7 +68,7 @@
             <input type="radio" name="answer2" value="1">
             <label > Heosphoros </label>
             <br>
-            <h4>Who is Clary's brother? </h4>
+            <h4 id="ques3">Who is Clary's brother? </h4>
             <input type="radio" name="answer3" value="1">
             <label > Sebastian Morganstern </label>
             <br>
@@ -82,7 +80,7 @@
             
             <br>
 
-            <h4>What is special about Clary? </h4>
+            <h4 id="ques4">What is special about Clary? </h4>
             <input type="radio" name="answer4" value="0">
             <label > Immortality </label>
             <br>
@@ -93,7 +91,7 @@
             <label >Rune power </label>
             <br>
 
-            <h4>Who is Magnus's father? </h4>
+            <h4 id="ques5">Who is Magnus's father? </h4>
             <input type="radio" name="answer5" value="1">
             <label > Asmodeous </label>
             <br>
@@ -105,7 +103,7 @@
 
             <br>
 
-            <h4>Who are the 3 half faries in the series? </h4>
+            <h4 id="ques6">Who are the 3 half faries in the series? </h4>
             <input type="radio" name="answer6" value="0">
             <label > Luke,Raphael and Camille </label>
             <br>
@@ -117,7 +115,7 @@
             <br>
             <br>
 
-            <button type="button" onclick="printAnswer()">Submit Quiz</button>
+            <button class="btn btn-info" type="button" onclick="printAnswer()">Submit Quiz</button>
                 <h4 id="result"></h4>
                 </div>
                 <div class="col-lg-3">
@@ -125,6 +123,7 @@
                 </div>
               </div>
           </div>
+          <a  href="whatsapp://send?text=Play the TMI quiz" data-action="share/whatsapp/share">Share via Whatsapp</a>
         <!-- <p style="color: red; font-size: 30px;"  id="wanda">MARVEL AVENGERS</p>
         
         <h1 id="demo">First page Of the website</h1>
@@ -135,8 +134,8 @@
         </button> -->
         <br>
         <br>
-            
- 
+        <!-- style="color: purple;" onmouseover="style.color='green'" onmouseout="style.color='blue'"
+  -->
         <!-- <class="answer"> -->
             
                 
