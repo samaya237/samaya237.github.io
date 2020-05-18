@@ -21,3 +21,8 @@ width: 350px;
 height: 250px;
 margin-bottom: 10px;
 }
+
+#app{
+    width: 100px;
+    margin-left: 40%;
+}
